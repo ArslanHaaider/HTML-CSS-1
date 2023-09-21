@@ -44,7 +44,14 @@
     justify-content: center;
     background-color: rgb(32,32,35);
 }
-#name{}
+#name{
+    color: white;
+    font-size: 80px;
+}
+#profession{
+    color: rgb(190,49,68);
+    font-size: 40px;
+}
 /* .section-2{
     width: 100vw;
     height: 100vh;
