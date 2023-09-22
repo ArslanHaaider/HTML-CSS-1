@@ -138,6 +138,71 @@
 
 .section-3{
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     background-color: rgb(32,32,35) ;
 }
+
+.quotes{
+    border: 1px solid orange;
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.quotes>h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.quotes>h4{
+    color: white;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+.socialMedia{
+    width: 100vw;
+    height: 30vh;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.media-container{
+    width: 100vw;
+    border: 1px solid red;
+}
+.socialMedia .media-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.icon-img{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.media-container>li{
+    list-style: none;
+}
+.icon>a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 20vw;
+    border: 1px solid beige;
+    font-size: 20px;
+}
+.icon{
+    display: flex;
+    align-content: space-evenly;
+    width: 15vw;
+    border: 1px solid white;}
