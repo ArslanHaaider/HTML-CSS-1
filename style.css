@@ -19,6 +19,7 @@
     background-color: rgb(190,49,68);
     font-family: 'Poppins', sans-serif;
     color: white;
+    position: sticky;
 }
 .nav-link{
     margin-left: 30px;
@@ -52,8 +53,8 @@
     color: rgb(190,49,68);
     font-size: 40px;
 }
-/* .section-2{
+.section-2{
     width: 100vw;
     height: 100vh;
-    background-color: red;
-} */
+    background-color: rgb(69,86,125);
+}
