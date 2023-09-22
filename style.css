@@ -138,12 +138,12 @@
 
 .section-3{
     width: 100vw;
-    height: 120vh;
+    height: 90vh;
     background-color: rgb(32,32,35) ;
 }
 
 .quotes{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 100vw;
     height: 45vh;
     display: flex;
@@ -166,26 +166,22 @@
 
 .socialMedia{
     width: 100vw;
-    height: 30vh;
-    border: 1px solid orange;
+    height: 10vh;
+    /* border: 1px solid orange; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .media-container{
-    width: 100vw;
-    border: 1px solid red;
-}
-.socialMedia .media-container{
+    width: 70%;
+    /* border: 1px solid red; */
     display: flex;
-    justify-content: space-evenly;
-    align-content: space-evenly;
+    justify-content: space-around;
 }
-
 .icon-img{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     color: white;
 }
 .media-container>li{
@@ -196,13 +192,32 @@
     color: white;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-    width: 20vw;
-    border: 1px solid beige;
+    justify-content: space-around;
+    width: 10vw;
+    /* border: 1px solid beige; */
     font-size: 20px;
 }
 .icon{
-    display: flex;
-    align-content: space-evenly;
     width: 15vw;
-    border: 1px solid white;}
+    /* border: 1px solid white;} */
+}
+.icon:hover>a{
+    margin-top: 20px;
+}
+
+footer{
+    width: 100vw;
+    height: 35vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 3px solid red;
+    height: 30%;
+    color:white;
+}
